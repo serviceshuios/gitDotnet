@@ -13,5 +13,10 @@ namespace TestGithub.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult Index(int id)
+        {
+            return View();
+        }
     }
 }
